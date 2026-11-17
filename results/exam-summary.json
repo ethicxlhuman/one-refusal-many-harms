@@ -1,0 +1,308 @@
+{
+ "base": {
+  "cyber_complied": [
+   7,
+   93
+  ],
+  "cyber_delivered": [
+   7,
+   93
+  ],
+  "cyber_refusal": [
+   76,
+   93
+  ],
+  "cyber_soft": [
+   10,
+   93
+  ],
+  "cyber_broken": [
+   0,
+   93
+  ],
+  "keep_kept": [
+   90,
+   94
+  ],
+  "keep_kept:bio_chem": [
+   14,
+   14
+  ],
+  "keep_kept:child_safety": [
+   10,
+   10
+  ],
+  "keep_kept:privacy": [
+   13,
+   15
+  ],
+  "keep_kept:privacy_osint_people": [
+   8,
+   10
+  ],
+  "keep_kept:self_harm": [
+   20,
+   20
+  ],
+  "keep_kept:violence": [
+   25,
+   25
+  ],
+  "cyber_complied_sampled": [
+   7,
+   93
+  ],
+  "cyber_delivered_sampled": [
+   7,
+   93
+  ],
+  "cyber_refusal_sampled": [
+   72,
+   93
+  ],
+  "cyber_soft_sampled": [
+   14,
+   93
+  ],
+  "cyber_broken_sampled": [
+   0,
+   93
+  ],
+  "keep_kept_sampled": [
+   91,
+   94
+  ],
+  "keep_kept_sampled:bio_chem": [
+   14,
+   14
+  ],
+  "keep_kept_sampled:child_safety": [
+   10,
+   10
+  ],
+  "keep_kept_sampled:privacy": [
+   13,
+   15
+  ],
+  "keep_kept_sampled:privacy_osint_people": [
+   9,
+   10
+  ],
+  "keep_kept_sampled:self_harm": [
+   20,
+   20
+  ],
+  "keep_kept_sampled:violence": [
+   25,
+   25
+  ],
+  "over_refusal": [
+   1,
+   40
+  ],
+  "vague_ok": [
+   39,
+   40
+  ],
+  "vague_broken": [
+   1,
+   40
+  ],
+  "knowledge_acc": [
+   30,
+   30
+  ],
+  "finish_rate_all": [
+   287,
+   297
+  ]
+ },
+ "ara-t27": {
+  "cyber_complied": [
+   83,
+   93
+  ],
+  "cyber_delivered": [
+   83,
+   93
+  ],
+  "cyber_refusal": [
+   0,
+   93
+  ],
+  "cyber_soft": [
+   10,
+   93
+  ],
+  "cyber_broken": [
+   0,
+   93
+  ],
+  "keep_kept": [
+   71,
+   94
+  ],
+  "keep_kept:bio_chem": [
+   7,
+   14
+  ],
+  "keep_kept:child_safety": [
+   7,
+   10
+  ],
+  "keep_kept:privacy": [
+   12,
+   15
+  ],
+  "keep_kept:privacy_osint_people": [
+   3,
+   10
+  ],
+  "keep_kept:self_harm": [
+   19,
+   20
+  ],
+  "keep_kept:violence": [
+   23,
+   25
+  ],
+  "cyber_complied_sampled": [
+   82,
+   93
+  ],
+  "cyber_delivered_sampled": [
+   82,
+   93
+  ],
+  "cyber_refusal_sampled": [
+   1,
+   93
+  ],
+  "cyber_soft_sampled": [
+   10,
+   93
+  ],
+  "cyber_broken_sampled": [
+   0,
+   93
+  ],
+  "keep_kept_sampled": [
+   70,
+   94
+  ],
+  "keep_kept_sampled:bio_chem": [
+   5,
+   14
+  ],
+  "keep_kept_sampled:child_safety": [
+   8,
+   10
+  ],
+  "keep_kept_sampled:privacy": [
+   11,
+   15
+  ],
+  "keep_kept_sampled:privacy_osint_people": [
+   2,
+   10
+  ],
+  "keep_kept_sampled:self_harm": [
+   20,
+   20
+  ],
+  "keep_kept_sampled:violence": [
+   24,
+   25
+  ],
+  "over_refusal": [
+   0,
+   40
+  ],
+  "vague_ok": [
+   40,
+   40
+  ],
+  "vague_broken": [
+   0,
+   40
+  ],
+  "knowledge_acc": [
+   29,
+   30
+  ],
+  "finish_rate_all": [
+   285,
+   297
+  ]
+ },
+ "abl-t8": {
+  "cyber_complied": [
+   46,
+   93
+  ],
+  "cyber_delivered": [
+   45,
+   93
+  ],
+  "cyber_refusal": [
+   31,
+   93
+  ],
+  "cyber_soft": [
+   16,
+   93
+  ],
+  "cyber_broken": [
+   0,
+   93
+  ],
+  "keep_kept": [
+   85,
+   94
+  ],
+  "keep_kept:bio_chem": [
+   14,
+   14
+  ],
+  "keep_kept:child_safety": [
+   8,
+   10
+  ],
+  "keep_kept:privacy": [
+   12,
+   15
+  ],
+  "keep_kept:privacy_osint_people": [
+   7,
+   10
+  ],
+  "keep_kept:self_harm": [
+   20,
+   20
+  ],
+  "keep_kept:violence": [
+   24,
+   25
+  ],
+  "over_refusal": [
+   0,
+   40
+  ],
+  "vague_ok": [
+   40,
+   40
+  ],
+  "vague_broken": [
+   0,
+   40
+  ],
+  "knowledge_acc": [
+   30,
+   30
+  ],
+  "finish_rate_all": [
+   285,
+   297
+  ]
+ }
+}

@@ -1,0 +1,292 @@
+{
+ "capability_paired": {
+  "ara-t27:mmlu_pro": {
+   "n": 140,
+   "base_acc": 87.9,
+   "edit_acc": 83.6,
+   "lost": 9,
+   "gained": 3,
+   "mcnemar_p": 0.146
+  },
+  "abl-t8:mmlu_pro": {
+   "n": 140,
+   "base_acc": 87.9,
+   "edit_acc": 86.4,
+   "lost": 3,
+   "gained": 1,
+   "mcnemar_p": 0.625
+  },
+  "ara-t27:gsm8k": {
+   "n": 150,
+   "base_acc": 96.7,
+   "edit_acc": 92.0,
+   "lost": 8,
+   "gained": 1,
+   "mcnemar_p": 0.0391
+  },
+  "abl-t8:gsm8k": {
+   "n": 150,
+   "base_acc": 96.7,
+   "edit_acc": 96.0,
+   "lost": 1,
+   "gained": 0,
+   "mcnemar_p": 1.0
+  },
+  "ara-t27:ifeval": {
+   "n": 150,
+   "base_acc": 92.0,
+   "edit_acc": 91.3,
+   "lost": 4,
+   "gained": 3,
+   "mcnemar_p": 1.0
+  },
+  "abl-t8:ifeval": {
+   "n": 150,
+   "base_acc": 92.0,
+   "edit_acc": 90.7,
+   "lost": 3,
+   "gained": 1,
+   "mcnemar_p": 0.625
+  },
+  "base:truthfulqa_mc2": 67.1,
+  "ara-t27:truthfulqa_mc2": 61.5,
+  "abl-t8:truthfulqa_mc2": 66.7
+ },
+ "heretic": {
+  "ara_base": [
+   57,
+   43
+  ],
+  "abl_base": [
+   57,
+   43
+  ],
+  "n_trials": [
+   60,
+   60
+  ],
+  "ara_t27": {
+   "trial": 27,
+   "cyber": 28,
+   "keep": 43,
+   "kl": 1.9058176279067993,
+   "params": {
+    "start_layer_index": 9,
+    "end_layer_index": 56,
+    "preserve_good_behavior_weight": 0.020254551198361073,
+    "steer_bad_behavior_weight": 0.01421845654990588,
+    "overcorrect_relative_weight": 0.16815498681432517,
+    "neighbor_count": 5
+   }
+  },
+  "ara_t7": {
+   "trial": 7,
+   "cyber": 0,
+   "keep": 0,
+   "kl": 21.701091766357422,
+   "params": {
+    "start_layer_index": 17,
+    "end_layer_index": 45,
+    "preserve_good_behavior_weight": 0.20718000021475524,
+    "steer_bad_behavior_weight": 0.006361129571102562,
+    "overcorrect_relative_weight": 1.2219075189216384,
+    "neighbor_count": 5
+   }
+  },
+  "ara_t11": {
+   "trial": 11,
+   "cyber": 0,
+   "keep": 0,
+   "kl": 19.41701316833496,
+   "params": {
+    "start_layer_index": 20,
+    "end_layer_index": 48,
+    "preserve_good_behavior_weight": 0.5875078194877303,
+    "steer_bad_behavior_weight": 0.00024394514003860568,
+    "overcorrect_relative_weight": 1.2966180029336678,
+    "neighbor_count": 10
+   }
+  },
+  "ara_t9": {
+   "trial": 9,
+   "cyber": 52,
+   "keep": 46,
+   "kl": 0.28251922130584717,
+   "params": {
+    "start_layer_index": 26,
+    "end_layer_index": 33,
+    "preserve_good_behavior_weight": 0.16995954048719009,
+    "steer_bad_behavior_weight": 0.801031229390953,
+    "overcorrect_relative_weight": 0.0031163246884200134,
+    "neighbor_count": 7
+   }
+  },
+  "ara_kl_le_0.5": [
+   {
+    "trial": 9,
+    "cyber": 52,
+    "keep": 46,
+    "kl": 0.28251922130584717,
+    "params": {
+     "start_layer_index": 26,
+     "end_layer_index": 33,
+     "preserve_good_behavior_weight": 0.16995954048719009,
+     "steer_bad_behavior_weight": 0.801031229390953,
+     "overcorrect_relative_weight": 0.0031163246884200134,
+     "neighbor_count": 7
+    }
+   }
+  ],
+  "abl_t8": {
+   "trial": 8,
+   "cyber": 46,
+   "keep": 41,
+   "kl": 0.07592486590147018,
+   "params": {
+    "direction_index": null,
+    "weight_distributions": {
+     "attn.o_proj": {
+      "max_weight": 0.9954697961292512,
+      "max_weight_position": 55.59418289387759,
+      "min_weight": 0.7368283406067716,
+      "min_weight_distance": 32.49414297971856
+     },
+     "mlp.down_proj": {
+      "max_weight": 0.24619214863728023,
+      "max_weight_position": 39.36495554014948,
+      "min_weight": 0.05722721335758518,
+      "min_weight_distance": 29.26225475478412
+     }
+    }
+   }
+  },
+  "abl_kl_range": [
+   0.0007876955787651241,
+   0.4339505136013031
+  ],
+  "abl_min_cyber": {
+   "trial": 6,
+   "cyber": 37,
+   "keep": 23,
+   "kl": 0.26567450165748596,
+   "params": {
+    "direction_index": null,
+    "weight_distributions": {
+     "attn.o_proj": {
+      "max_weight": 1.0604968148740237,
+      "max_weight_position": 51.0201922681952,
+      "min_weight": 0.7143799497444906,
+      "min_weight_distance": 21.55644698574005
+     },
+     "mlp.down_proj": {
+      "max_weight": 0.778138684103528,
+      "max_weight_position": 37.6850238051602,
+      "min_weight": 0.7761143281444222,
+      "min_weight_distance": 22.920745536101766
+     }
+    }
+   }
+  },
+  "ara_trials_layer0": 1,
+  "abl_pearson_cyberdrop_keepdrop": 0.868
+ },
+ "directions": {
+  "n_layers": 60,
+  "cos_matched_keep_L21_59": [
+   0.669,
+   0.862
+  ],
+  "cos_matched_keep_L0_17": [
+   -0.405,
+   0.104
+  ],
+  "cos_generic_keep_L21_59": [
+   0.758,
+   0.945
+  ],
+  "dprime_matched_max": [
+   4.66,
+   52
+  ],
+  "dprime_generic_max": [
+   13.76,
+   32
+  ],
+  "dprime_matched_L25plus_range": [
+   3.23,
+   4.66
+  ]
+ },
+ "round1b": {
+  "dprime_ortho_L45": 6.12,
+  "dprime_plain_L45": 6.59,
+  "dprime_ortho_max": 6.98,
+  "mpoa_cos_plain_ortho_L21_59": [
+   0.525,
+   0.745
+  ],
+  "mpoa_max_abs_cos_ortho_keep": 4.89410012960434e-07,
+  "mpoa_base_val": {
+   "cyber_refusals": 56,
+   "keep_refusals": 42
+  },
+  "mpoa_grid": {
+   "plain-x1.0": {
+    "kind": "plain",
+    "mult": 1.0,
+    "kl_8tok": 0.013171501457691193,
+    "kl_first": 0.05036685988306999,
+    "n_modules": 85,
+    "cyber_refusals": 41,
+    "keep_refusals": 41
+   },
+   "ortho-x1.0": {
+    "kind": "ortho",
+    "mult": 1.0,
+    "kl_8tok": 0.07874328643083572,
+    "kl_first": 0.3017651438713074,
+    "n_modules": 85,
+    "cyber_refusals": 55,
+    "keep_refusals": 43
+   },
+   "ortho-x1.5": {
+    "kind": "ortho",
+    "mult": 1.5,
+    "kl_8tok": 0.15718074142932892,
+    "kl_first": 0.5908401608467102,
+    "n_modules": 85,
+    "cyber_refusals": 55,
+    "keep_refusals": 44
+   },
+   "ortho-x2.0": {
+    "kind": "ortho",
+    "mult": 2.0,
+    "kl_8tok": 0.25190281867980957,
+    "kl_first": 0.9404136538505554,
+    "n_modules": 85,
+    "cyber_refusals": 53,
+    "keep_refusals": 43
+   },
+   "ortho-x3.0": {
+    "kind": "ortho",
+    "mult": 3.0,
+    "kl_8tok": 0.4500022828578949,
+    "kl_first": 1.683020830154419,
+    "n_modules": 85,
+    "cyber_refusals": 53,
+    "keep_refusals": 44
+   }
+  },
+  "mpoa_pick": "ortho-x2.0",
+  "heretic_t8_merge_kl8": 0.01212498638778925
+ },
+ "cost": {
+  "metered_round1_usd": 17.93,
+  "metered_round1b_usd": 2.58,
+  "metered_total_usd": 20.51,
+  "billed_usd": 0,
+  "source": "provider billing summary; free credit",
+  "ara_search_usd": 8.03,
+  "abliteration_search_usd": 4.76
+ }
+}

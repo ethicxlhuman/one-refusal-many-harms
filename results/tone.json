@@ -1,0 +1,34 @@
+{
+ "base": {
+  "disclaimer_open_cyber": [
+   2,
+   93
+  ],
+  "median_tokens_cyber": 52,
+  "median_tokens_knowledge": 124.5
+ },
+ "ara-t27": {
+  "disclaimer_open_cyber": [
+   68,
+   93
+  ],
+  "median_tokens_cyber": 891,
+  "median_tokens_knowledge": 253.0
+ },
+ "abl-t8": {
+  "disclaimer_open_cyber": [
+   24,
+   93
+  ],
+  "median_tokens_cyber": 781,
+  "median_tokens_knowledge": 126.5
+ },
+ "r1b3-ortho-x2.0": {
+  "disclaimer_open_cyber": [
+   1,
+   93
+  ],
+  "median_tokens_cyber": 51,
+  "median_tokens_knowledge": 233.0
+ }
+}
